@@ -5,6 +5,7 @@
 
 h1 {
   font-family: 'Varela Round', sans-serif;
+  display: inline;
 }
 
 @font-face {
