@@ -1,5 +1,13 @@
+.hotPink {
+  color: #FF69B4;
+}
 
-#mainName {
-  color: red;
+h1 {
+  font-family: Comfortaa-Regular;
+}
+
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: fonts/Comfortaa-Regular;
 }
   
