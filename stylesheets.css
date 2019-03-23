@@ -8,6 +8,10 @@ h1 {
   display: inline;
 }
 
+div {
+  display: inline;
+}
+
 @font-face {
   font-family: 'Varela Round', sans-serif;
   src: url(https://fonts.googleapis.com/css?family=Varela+Round);
