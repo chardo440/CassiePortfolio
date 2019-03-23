@@ -1,2 +1,2 @@
-# CassiePorfolio
+# CassiePortfolio
 Cassie Allgire portfolio repository
