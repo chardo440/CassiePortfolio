@@ -1,15 +1,29 @@
+@font-face {
+  font-family: 'Varela Round', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Varela+Round);
+}
+
 .hotPink {
   color: #FF69B4;
   display: inline;
 }
 
-h1 {
-  font-family: 'Varela Round', sans-serif;
+ul {
+  display: inline;
+  letter-spacing: 3px;
 }
 
-
-@font-face {
+h1 {
   font-family: 'Varela Round', sans-serif;
-  src: url(https://fonts.googleapis.com/css?family=Varela+Round);
+  font-size: 4em;
+  letter-spacing: 0.1em;
+}
+
+a:hover{
+  color:#FF69B4;
+}
+
+a{
+  color: darkgray;
 }
   
