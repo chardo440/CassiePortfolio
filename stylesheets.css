@@ -3,9 +3,18 @@
   src: url(https://fonts.googleapis.com/css?family=Varela+Round);
 }
 
+@font-face {
+  font-family: 'Muli', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Muli);
+}
+
 .hotPink {
   color: #FF69B4;
   display: inline;
+}
+
+body{
+  background-color: #f9f9f9;
 }
 
 ul {
@@ -14,9 +23,10 @@ ul {
 }
 
 h1 {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Muli', sans-serif;;
   font-size: 4em;
   letter-spacing: 0.1em;
+  font-weight: 400;
 }
 
 a:hover{
