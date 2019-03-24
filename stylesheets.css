@@ -16,11 +16,16 @@
   background-color: rgb(238, 236, 236);
   border-top: 1px solid rgb(230, 230, 230);
   text-align: center;
+  font-family: 'Muli', sans-serif;
 }
 
 .hotPink {
   color: #FF69B4;
   display: inline;
+}
+
+.socialMedia mediaLinks {
+  font-family: 'Muli', sans-serif;
 }
 
 .navBorderGradient li {
@@ -29,34 +34,19 @@
     padding: 20px;
   }
 
-  .socialMedia li {
-    display: inline;
-    font-size: 1em;
+  .mediaLinks {
+    color: black;
+    font-family: 'Muli', sans-serif;
   }
 
   .fa-mycustomx {
-    font-size: 1.2em;
-    position: absolute;
+    font-size: 1.8em;
   }
 
-  .fa-snapchat-square {
-    left: 65%;
-    top: .5em;
-  }
-
-  .fa-facebook-square {
-    left: 71%;
-    top: .5em;
-  }
-
-  .fa-instagram {
-    left: 79%;
-    top: .5em;
-  }
-
-  .fa-twitter-square {
-    left: 87%;
-    top: .5em;
+  .socialMedia {
+    text-align: right;
+    padding-right: 3em;
+    margin: 0;
   }
 
 body{
@@ -85,6 +75,11 @@ h1 {
   margin-left: 0.9em;
   padding-bottom: .3em;
   padding-top: .3em;
+  }
+
+ul p {
+  padding: .1em 1em 0 0;
+  margin: .4em 0 0 0; 
 }
 
 a:hover{
@@ -96,3 +91,4 @@ a{
   text-decoration: none;
 }
   
+
