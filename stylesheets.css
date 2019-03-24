@@ -14,6 +14,7 @@
 }
 
 body{
+  margin: 0;
   background-color: #f9f9f9;
 }
 
@@ -21,8 +22,14 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  height: 30px;
-  background-color: darkgray;
+  height: 40px;
+  background-color: rgb(238, 236, 236);
+  border-top: 1px solid rgb(219, 219, 219);
+  text-align: center;
+}
+
+.footerText {
+  height: 10px;
 }
 
 ul {
@@ -43,5 +50,6 @@ a:hover{
 
 a{
   color: darkgray;
+  text-decoration: none;
 }
   
