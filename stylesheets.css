@@ -29,6 +29,36 @@
     padding: 20px;
   }
 
+  .socialMedia li {
+    display: inline;
+    font-size: 1em;
+  }
+
+  .fa-mycustomx {
+    font-size: 1.2em;
+    position: absolute;
+  }
+
+  .fa-snapchat-square {
+    left: 65%;
+    top: .5em;
+  }
+
+  .fa-facebook-square {
+    left: 71%;
+    top: .5em;
+  }
+
+  .fa-instagram {
+    left: 79%;
+    top: .5em;
+  }
+
+  .fa-twitter-square {
+    left: 87%;
+    top: .5em;
+  }
+
 body{
   margin: 0;
   background-color: #f9f9f9;
@@ -37,7 +67,7 @@ body{
 .navBorderGradient {
   letter-spacing: 3px;
   font-family: 'Muli', sans-serif;
-  border-bottom: 2px solid rgb(210, 210, 210);
+  border-bottom: .01em solid rgb(226, 226, 226);
   text-align: center;
   list-style-type: none;
   margin: 0;
@@ -50,7 +80,11 @@ h1 {
   font-size: 7em;
   letter-spacing: 0.1em;
   font-weight: 200;
+  padding: 0;
+  margin: 0;
   margin-left: 0.9em;
+  padding-bottom: .3em;
+  padding-top: .3em;
 }
 
 a:hover{
